@@ -1,0 +1,115 @@
+.main{
+    /* margin: 15%; */
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(112, 216, 144);
+    height: 100vh;
+    width: 30%;
+}
+body{
+    margin: 0px;
+    justify-content: center;
+    /* align-items: center; */
+    /* text-align: center; */
+    display: flex;
+}
+.image{
+    background-color: rgb(215, 255, 227);
+    text-align: center;
+    height: 50%;
+    width: 75%;
+}
+.image img{
+    height: 80%;
+    width: 80%;
+}
+.image img:hover{
+    height: 100%;
+    width: 100%;
+}
+.desc{
+    background-color: rgb(112, 216, 144);
+    padding: 3%;
+}
+.main h1{
+    display: inline;
+    background-color: black;
+    color: white;
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+}
+.imgdes{
+    padding: 2.5%;
+    transition: 0.5s;
+}
+.imgdes:hover{
+    background-color: white;
+    padding: 2.8%;
+    border: 0.5px solid;
+    transition: 0.5s;
+}
+.imgdes p{
+    display: inline;
+    padding: 2%;
+}
+.buts h3{
+    /* display: inline; */
+    margin-left: 10px;
+}
+.buts #cg{
+    background-color: forestgreen;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buts #lg{
+    background-color: lime;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-right: 3px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.buts #md{
+    background-color: grey;
+    border: none;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: 0.5s;
+    /* margin-right: 3px; */
+}
+#cg:hover, #lg:hover, #md:hover{
+    height: 27px;
+    width: 27px;
+    border: 1.5px solid;
+    transition: 0.5s;
+}
+.cbut{
+    text-align: center;
+}
+.buts #cart{
+    cursor: pointer;
+    background-color: whitesmoke;
+    border-radius: 30px;
+    padding: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: 0.5s;
+    border: 1px solid;
+}
+#cart:hover{
+    border: none;
+    transition: 0.5s;
+    padding: 3.5%;
+}
